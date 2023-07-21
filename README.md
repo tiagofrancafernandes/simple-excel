@@ -388,7 +388,7 @@ use Spatie\SimpleExcel\SimpleExcelWriter;
 $writer = SimpleExcelWriter::create($pathToCsv)
     ->addHeader(['first_name', 'last_name'])
     ->addRow(['John', 'Doe'])
-    ->addRow(['Jane', 'Doe'])
+    ->addRow(['Jane', 'Doe']);
 ```
 
 #### Writing an Excel file [^](#table-of-contents)
